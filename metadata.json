@@ -1,0 +1,5 @@
+{
+  "name": "Smart Task Scheduler",
+  "description": "An intelligent productivity application that uses AI to create schedules, break down tasks, reallocate work, and provide analytics to help you stay organized and prevent burnout. Manage your day with the power of Gemini.",
+  "requestFramePermissions": []
+}

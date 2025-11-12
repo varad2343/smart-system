@@ -1,0 +1,14 @@
+/* Minimal stylesheet to satisfy Vite build and provide base styles. Tailwind is loaded via CDN in index.html. */
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+}
+
+/* Small utility to ensure app background color shows even if Tailwind hasn't applied yet */
+body { background-color: #0b1220; }
