@@ -1,0 +1,30 @@
+{
+  "systemName": "My Smart Home",
+  "devices": [
+    {
+      "id": "light-1",
+      "name": "Living Room Light",
+      "type": "light",
+      "initialBrightness": 100
+    },
+    {
+      "id": "light-2",
+      "name": "Bedroom Light",
+      "type": "light",
+      "initialBrightness": 75
+    },
+    {
+      "id": "thermo-1",
+      "name": "Main Thermostat",
+      "type": "thermostat",
+      "targetTemperature": 22,
+      "mode": "auto"
+    },
+    {
+      "id": "cam-1",
+      "name": "Front Door Camera",
+      "type": "camera",
+      "motionDetection": true
+    }
+  ]
+}
